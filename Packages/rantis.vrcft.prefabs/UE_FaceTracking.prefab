@@ -1,0 +1,123 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8083264127345892583
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7874556940505204947}
+  - component: {fileID: 7996415840586771403}
+  m_Layer: 0
+  m_Name: UE_FaceTracking
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7874556940505204947
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8083264127345892583}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 1
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7996415840586771403
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8083264127345892583}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  unityVersion: 2022.3.22f1
+  vrcfuryVersion: 1.1013.0
+  somethingIsBroken: 0
+  config:
+    features: []
+  content:
+    rid: 4040275476925906947
+  references:
+    version: 2
+    RefIds:
+    - rid: 4040275476925906947
+      type: {class: FullController, ns: VF.Model.Feature, asm: VRCFury}
+      data:
+        version: 4
+        controllers:
+        - controller:
+            version: 1
+            fileID: 0
+            guid: 
+            id: 7f49b3f964397f24398df80c2fb65bf1|Assets/RantyFTTemplate/Controllers/FuryModules/UE_RantyFaceTracking_FX.controller
+            objRef: {fileID: 9100000, guid: 7f49b3f964397f24398df80c2fb65bf1, type: 2}
+          type: 5
+        - controller:
+            version: 1
+            fileID: 0
+            guid: 
+            id: f5cfe2f59bf6e424e86a4126f7104730|Assets/RantyFTTemplate/Controllers/FuryModules/UE_RantyFaceTracking_ADD.controller
+            objRef: {fileID: 9100000, guid: f5cfe2f59bf6e424e86a4126f7104730, type: 2}
+          type: 2
+        menus:
+        - menu:
+            version: 1
+            fileID: 0
+            guid: 
+            id: 0426393313b5553448f901c62efed612|Assets/RantyFTTemplate/Controllers/FuryModules/FaceTracking_UI.asset
+            objRef: {fileID: 11400000, guid: 0426393313b5553448f901c62efed612, type: 2}
+          prefix: 
+        prms:
+        - parameters:
+            version: 1
+            fileID: 0
+            guid: 
+            id: b77fbcb236a988c4cb7b4da4b285710f|Assets/RantyFTTemplate/Controllers/FuryModules/UE_FaceTracking_Params.asset
+            objRef: {fileID: 11400000, guid: b77fbcb236a988c4cb7b4da4b285710f, type: 2}
+        smoothedPrms: []
+        globalParams:
+        - '*'
+        allNonsyncedAreGlobal: 0
+        ignoreSaved: 0
+        toggleParam: 
+        rootObjOverride: {fileID: 0}
+        rootBindingsApplyToAvatar: 1
+        rewriteBindings: []
+        allowMissingAssets: 0
+        controller:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 
+          objRef: {fileID: 0}
+        menu:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 
+          objRef: {fileID: 0}
+        parameters:
+          version: 1
+          fileID: 0
+          guid: 
+          id: 
+          objRef: {fileID: 0}
+        submenu: 
+        removePrefixes: []
+        addPrefix: 
+        useSecurityForToggle: 0

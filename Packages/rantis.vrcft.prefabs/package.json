@@ -1,0 +1,13 @@
+{
+  "name": "rantis.vrcft.prefabs",
+  "displayName": "Rantys Facetracking Prefabs",
+  "version": "0.0.1",
+  "unity": "2022.3",
+  "description": "Alpha test"
+  "vrchatVersion": "2022.1.1",
+  "author": {
+    "name": "Rantis",
+    "email": "aug550@gmail.com",
+    "url": "https://github.com/RantiMess"
+  }
+}
