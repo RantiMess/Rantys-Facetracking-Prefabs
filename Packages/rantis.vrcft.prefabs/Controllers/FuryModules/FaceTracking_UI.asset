@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: -340790334, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
   m_Name: FaceTracking_UI
   m_EditorClassIdentifier: 
-  Parameters: {fileID: 11400000, guid: bd8af48c00db21147bb1929b7d7488e1, type: 2}
+  Parameters: {fileID: 11400000, guid: b77fbcb236a988c4cb7b4da4b285710f, type: 2}
   controls:
   - name: Eye
     icon: {fileID: 2800000, guid: 90525c1a44be1a341956cdb8f20beb7a, type: 3}
