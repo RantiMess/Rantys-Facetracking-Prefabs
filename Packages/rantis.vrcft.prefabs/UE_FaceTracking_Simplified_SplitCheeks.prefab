@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 7874556940505204947}
   - component: {fileID: 7996415840586771403}
   m_Layer: 0
-  m_Name: UE_FaceTracking
+  m_Name: UE_FaceTracking_Simplified_SplitCheeks
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -64,8 +64,8 @@ MonoBehaviour:
             version: 1
             fileID: 0
             guid: 
-            id: 7f49b3f964397f24398df80c2fb65bf1|Packages/rantis.vrcft.prefabs/Controllers/FuryModules/UE_RantyFaceTracking_FX.controller
-            objRef: {fileID: 9100000, guid: 7f49b3f964397f24398df80c2fb65bf1, type: 2}
+            id: 06ccfc9c089b13c4781e209a02ab108c|Packages/rantis.vrcft.prefabs/Controllers/FuryModules/UE_RantyFaceTracking_FX_Simplified_SplitCheeks.controller
+            objRef: {fileID: 9100000, guid: 06ccfc9c089b13c4781e209a02ab108c, type: 2}
           type: 5
         - controller:
             version: 1
